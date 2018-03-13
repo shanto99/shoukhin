@@ -1,0 +1,149 @@
+.profile-image-container{
+    border:2px solid #124712;
+    border-radius: 5px;
+    height: 250px;
+    width: inherit;
+    overflow: hidden;
+}
+.profile-image{
+    object-fit:fill;
+    height: 100%;
+    overflow: hidden
+    width: 100%;
+}
+    .details li {
+      list-style: none;
+    }
+    li {
+        margin-bottom:10px;
+        
+    }
+    
+.stepwizard-step p {
+    margin-top: 10px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 50%;
+    position: relative;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+.btn-link {
+    color: #124712 !important;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+/*.btn-primary{
+    background-color: #124712 !important;
+}*/
+.btn-success {
+  background-color: #124712 !important;
+  border-color: #124712 !important;
+  border-radius: 6px;
+}
+
+.form-control:focus {
+    border-color: #5cb85c !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+
+.has-error .form-control:focus {
+    //box-shadow: none;
+    //-webkit-box-shadow: none;
+}
+.searchable-container {
+    margin: 20px 0 0 0
+}
+
+    .searchable-container label.btn-default.active {
+        background-color: #124712;
+        color: #FFF
+    }
+
+    .searchable-container label.btn-default {
+        width: 90%;
+        border: 1px solid #efefef;
+        margin: 5px;
+        box-shadow: 5px 8px 8px 0 #ccc;
+    }
+
+    .searchable-container label .bizcontent {
+        width: 100%;
+    }
+
+    .searchable-container .btn-group {
+        width: 90%
+    }
+
+    .searchable-container .btn span.glyphicon {
+        opacity: 0;
+    }
+
+    .searchable-container .btn.active span.glyphicon {
+        opacity: 1;
+    }
+
+
+#img-upload {
+    width: 100%;
+}

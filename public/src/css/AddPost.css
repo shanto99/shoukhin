@@ -1,0 +1,93 @@
+﻿body {
+
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+form{
+    margin: auto;
+}
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+        .upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: #124712 !important;
+}
+
+
+.upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center
+}
+
+    .upload-drop-zone.drop {
+        color: #222;
+        border-color: #222;
+    }
+
+
+
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+    .image-preview-input input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+.image-preview-input-title {
+    margin-left: 2px;
+}
+
+#comment{
+    width : 100%;
+    
+}
+.form-control:focus {
+    border-color: #5cb85c !important;
+    //box-shadow: none;
+    //-webkit-box-shadow: none;
+}
+#postbutton {
+    margin-top: 2cm;
+}
+#mydropdown1 {
+    margin-top: 4px;
+}
+#mydropdown2 {
+    margin-top: 4px;
+}
